@@ -428,4 +428,3 @@ for variable = 1, 54 do
 	joypad.set(1,{left=true})
 	emu.frameadvance()
 end
-print("Test complete, please evaluate...")
