@@ -1,13 +1,16 @@
 -- Ruby & Sapphire TASBot by: zapdos44/KingOfTheKingdra
--- Intended to be used for runs through unmodified Ruby & Sapphire games.
--- How To Use
--- You can set the Emulator to run at any speed you like (This script has only been tested on VBA-RR v23.6 svn480)
+-- Intended to be used for runs through unmodified Ruby & Sapphire games. Current Script can clear scripted parts in approx. 1.5 minutes.
+-- WARNING: DO NOT STOP OR RESTART THE LUA SCRIPT! IT MAY CRASH THE EMULATOR!
+
+-- Make sure to max out your Emulator Speed!
+-- This script has only been tested on VBA-RR v23.6 svn480
 -- Works on Pokemon Ruby and Sapphire, make sure to not have any Frame Skip going.
 -- Sometimes to bot will appear to have frozen or be stuck in a loop. Do not worry, it is just because I did not count out the frames exactly.
 -- Pause whenever you wish, the bot will pause with the emulator.
 -- Use runasdate to load the save on 1/1/2000 at 0:00:00. Set Immediate Mode and start the script on Frame 1450.
--- Do NOT use save states. This bot cannot adjust for them!
--- Start the script on this exact tile shown in the picture here: https://imgur.com/a/pbHDEKj
+-- Do NOT use save states. This bot does NOT adjust for them!
+-- Start the script on this exact tile shown in the picture here: https://imgur.com/a/pbHDEKj Make sure to follow any additional instructions on the album.
+-- Always looking for feedback / suggestions for improvement!
 
 joypad.set(1,{A=true})
 for variable = 1, 100 do
@@ -426,5 +429,928 @@ end
 for variable = 1, 54 do
 	emu.frameadvance()
 	joypad.set(1,{left=true})
+	emu.frameadvance()
+end
+for variable = 1, 10 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 6 do
+	emu.frameadvance()
+	joypad.set(1,{down=true})
+	emu.frameadvance()
+end
+for variable = 1, 10 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 1 do
+	emu.frameadvance()
+	joypad.set(0.5,{down=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 60 do
+	emu.frameadvance()
+	joypad.set(1,{left=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 60 do
+	emu.frameadvance()
+	joypad.set(1,{up=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 8 do
+	emu.frameadvance()
+	joypad.set(1,{left=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 30 do
+	emu.frameadvance()
+	joypad.set(1,{up=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 126 do
+	emu.frameadvance()
+	joypad.set(1,{left=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 15 do
+	emu.frameadvance()
+	joypad.set(1,{down=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 108 do
+	emu.frameadvance()
+	joypad.set(1,{left=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 15 do
+	emu.frameadvance()
+	joypad.set(1,{up=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 20 do
+	emu.frameadvance()
+	joypad.set(1,{left=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 150 do
+	emu.frameadvance()
+	joypad.set(1,{up=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 5500 do
+	emu.frameadvance()
+	joypad.set(1,{A=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 120 do
+	emu.frameadvance()
+	joypad.set(1,{B=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 120 do
+	emu.frameadvance()
+	joypad.set(1,{down=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 300 do
+	emu.frameadvance()
+	joypad.set(1,{left=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 140 do
+	emu.frameadvance()
+	joypad.set(1,{up=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 109 do
+	emu.frameadvance()
+	joypad.set(1,{left=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 72 do
+	emu.frameadvance()
+	joypad.set(1,{up=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 63 do
+	emu.frameadvance()
+	joypad.set(1,{up=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 63 do
+	emu.frameadvance()
+	joypad.set(1,{left=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 36 do
+	emu.frameadvance()
+	joypad.set(1,{up=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 230 do
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+	joypad.set(1,{A=true})
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 20 do
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+	joypad.set(1,{B=true})
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 72 do
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+	joypad.set(1,{A=true})
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 20 do
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+	joypad.set(1,{B=true})
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 72 do
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+	joypad.set(1,{A=true})
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 20 do
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+	joypad.set(1,{B=true})
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 72 do
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+	joypad.set(1,{A=true})
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 20 do
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+	joypad.set(1,{B=true})
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 72 do
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+	joypad.set(1,{A=true})
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 20 do
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+	joypad.set(1,{B=true})
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 72 do
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+	joypad.set(1,{A=true})
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 20 do
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+	joypad.set(1,{B=true})
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 72 do
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+	joypad.set(1,{A=true})
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 20 do
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+	joypad.set(1,{B=true})
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 72 do
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+	joypad.set(1,{A=true})
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 20 do
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+	joypad.set(1,{B=true})
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 72 do
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+	joypad.set(1,{A=true})
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 20 do
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+	joypad.set(1,{B=true})
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 72 do
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+	joypad.set(1,{A=true})
+	emu.frameadvance()
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 300 do
+	emu.frameadvance()
+	joypad.set(1,{B=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 63 do
+	emu.frameadvance()
+	joypad.set(1,{up=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 158 do
+	emu.frameadvance()
+	joypad.set(1,{right=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 63 do
+	emu.frameadvance()
+	joypad.set(1,{up=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 2500 do
+	emu.frameadvance()
+	joypad.set(1,{A=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 100 do
+	emu.frameadvance()
+	joypad.set(1,{up=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 172 do
+	emu.frameadvance()
+	joypad.set(1,{left=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 10 do
+	emu.frameadvance()
+	joypad.set(1,{up=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 750 do
+	emu.frameadvance()
+	joypad.set(1,{A=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 200 do
+	emu.frameadvance()
+	joypad.set(1,{B=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 36 do
+	emu.frameadvance()
+	joypad.set(1,{up=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 72 do
+	emu.frameadvance()
+	joypad.set(1,{right=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 138 do
+	emu.frameadvance()
+	joypad.set(1,{up=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 54 do
+	emu.frameadvance()
+	joypad.set(1,{right=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 36 do
+	emu.frameadvance()
+	joypad.set(1,{B=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 36 do
+	emu.frameadvance()
+	joypad.set(1,{right=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 1000 do
+	emu.frameadvance()
+	joypad.set(1,{A=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 72 do
+	emu.frameadvance()
+	joypad.set(1,{B=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 27 do
+	emu.frameadvance()
+	joypad.set(1,{right=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 300 do
+	emu.frameadvance()
+	joypad.set(1,{A=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 54 do
+	emu.frameadvance()
+	joypad.set(1,{B=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 300 do
+	emu.frameadvance()
+	joypad.set(1,{A=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 154 do
+	emu.frameadvance()
+	joypad.set(1,{B=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 300 do
+	emu.frameadvance()
+	joypad.set(1,{A=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 200 do
+	emu.frameadvance()
+	joypad.set(1,{B=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 36 do
+	emu.frameadvance()
+	joypad.set(1,{up=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 54 do
+	emu.frameadvance()
+	joypad.set(1,{right=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 45 do
+	emu.frameadvance()
+	joypad.set(1,{up=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 45 do
+	emu.frameadvance()
+	joypad.set(1,{left=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 100 do
+	emu.frameadvance()
+	joypad.set(1,{up=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 80 do
+	emu.frameadvance()
+	joypad.set(1,{left=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 100 do
+	emu.frameadvance()
+	joypad.set(1,{up=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 100 do
+	emu.frameadvance()
+	joypad.set(1,{right=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 258 do
+	emu.frameadvance()
+	joypad.set(1,{up=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 27 do
+	emu.frameadvance()
+	joypad.set(1,{right=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 27 do
+	emu.frameadvance()
+	joypad.set(1,{up=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 63 do
+	emu.frameadvance()
+	joypad.set(1,{left=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 72 do
+	emu.frameadvance()
+	joypad.set(1,{up=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 81 do
+	emu.frameadvance()
+	joypad.set(1,{right=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 45 do
+	emu.frameadvance()
+	joypad.set(1,{up=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 27 do
+	emu.frameadvance()
+	joypad.set(1,{left=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 36 do
+	emu.frameadvance()
+	joypad.set(1,{up=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 20 do
+	emu.frameadvance()
+	joypad.set(1,{left=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 500 do
+	emu.frameadvance()
+	joypad.set(1,{A=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 100 do
+	emu.frameadvance()
+	joypad.set(1,{B=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 1000 do
+	emu.frameadvance()
+	joypad.set(1,{A=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 200 do
+	emu.frameadvance()
+	joypad.set(1,{B=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 1000 do
+	emu.frameadvance()
+	joypad.set(1,{A=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 1000 do
+	emu.frameadvance()
+	joypad.set(1,{B=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 500 do
+	emu.frameadvance()
+	joypad.set(1,{B=true})
+	emu.frameadvance()
+end
+for variable = 1, 5 do
+	emu.frameadvance()
+	emu.frameadvance()
+end
+for variable = 1, 300 do
+	emu.frameadvance()
+	joypad.set(1,{down=true})
 	emu.frameadvance()
 end
